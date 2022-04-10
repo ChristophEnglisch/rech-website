@@ -1,0 +1,39 @@
+.card-container {
+    width: 100%;
+    height: 320px;
+}
+
+.card-container .card-element{
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-color: #d9d9d9;
+    font-size: small;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+.card-element .card-element-text {
+    display: none;
+}
+
+.card-element:hover > .card-element-text {
+    font-size: x-large;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.card-element img {
+    max-width: 300px;
+}
+
+.card-element:hover{
+    background-color: white;
+}

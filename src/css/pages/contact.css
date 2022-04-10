@@ -1,23 +1,30 @@
-html{
+@import "../main.css";
+
+html {
     height: 100%;
 }
-body{
+
+body {
     height: 100%;
 }
-.content{
+
+.content {
     font-size: large;
     height: 70%;
 }
-.content-text-container{
+
+.content-text-container {
     float: left;
     height: 100%;
     width: 30%;
 }
-.content-text{
+
+.content-text {
     width: 100%;
     height: 10%;
 }
-.contact-img{
+
+.contact-img {
     padding-top: 10px;
     float: left;
 }

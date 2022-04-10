@@ -1,5 +1,19 @@
 const main_url = window.location.pathname.replace('/', '');
 
+const header_css_path = [
+    'src/css/sub_css/header/apple.css',
+    'src/css/sub_css/header/pear.css',
+    'src/css/sub_css/header/plum.css',
+    'src/css/sub_css/header/strawberry.css',
+];
+
+const img_urls = [
+    'src/img/background_apple.jpg',
+    'src/img/background_pear.jpg',
+    'src/img/background_plum.jpg',
+    'src/img/background_strawberry.jpeg',
+];
+
 function HomeRedirect() {
     if (main_url !== 'home'){
         window.location.replace("home");
@@ -15,21 +29,7 @@ $(document).ready(function () {
         }
     });
 
-    var header_index = 0;
-
-    var header_css_path = [
-        'src/css/sub_css/header/apple.css',
-        'src/css/sub_css/header/pear.css',
-        'src/css/sub_css/header/plum.css',
-        'src/css/sub_css/header/strawberry.css',
-    ];
-
-    var img_urls = [
-        'src/img/background_apple.jpg',
-        'src/img/background_pear.jpg',
-        'src/img/background_plum.jpg',
-        'src/img/background_strawberry.jpeg',
-    ];
+    let header_index = 0;
 
     switch (main_url) {
         case 'home' :
