@@ -1,0 +1,11 @@
+header{
+    background-image: url(../../../img/background_plum.jpg);
+}
+
+#navbar a:hover{
+    background-color : #8999CD;
+}
+
+#navbar a.active{
+    background-color : #8999CD;
+}

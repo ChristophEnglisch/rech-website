@@ -1,0 +1,26 @@
+.ObstContent p {
+    font-size: 20pt;
+}
+
+.ObstContent {
+    height: 200px;
+    width: 700px;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-spacing: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 1px;
+    font-size: 15pt;
+}
+
+.ObstContent:last-of-type{
+    border: none;
+}
+
+.ObstIMG {
+    height: 175px;
+    width: 185px;
+    padding-right: 10px;
+    text-align: center;
+}

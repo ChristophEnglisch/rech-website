@@ -1,0 +1,145 @@
+html{
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, "Helvetica Neue", Helvetica, Arial, Meiryo, "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+footer{
+    margin-top: 50px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+footer p{
+    display: inline;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.content-scroll{
+    height: 760px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+}
+
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.header {
+    padding: 2px;
+    text-align: center;
+}
+
+.content {
+    z-index: -1;
+    display: block;
+    width: 900px;
+    margin: auto;
+    padding: 16px;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, "Helvetica Neue", Helvetica, Arial, Meiryo, "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+/*navbar section */
+#navbar {
+    background-color: #f2f2f2;
+    z-index: 1;
+    display: block;
+}
+
+#navbar ul {
+    list-style: none;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+#navbar li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    line-height: 40px;
+    text-align: left;
+    z-index: 1;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 15px;
+    transition: .3s;
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+
+#navbar a:hover {
+    background-color: #f2f2f2;
+    color: white;
+    z-index: 1;
+}
+
+#navbar a.active {
+    background-color: #f2f2f2;
+    color: #fff;
+    cursor: default;
+    z-index: 1;
+}
+
+#navbar li li {
+    font-size: 10pt;
+    z-index: 1;
+}
+
+
+#navbar li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 10pt;
+    display: inline-block;
+    margin-right: -4px;
+    z-index: 1;
+}
+
+#navbar > ul > li {
+    text-align: center;
+    z-index: 1;
+}
+
+#navbar > ul > li > a {
+    padding-left: 0;
+    z-index: 1;
+}
+
+#navbar li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+    z-index: 1;
+}
+
+#navbar li:hover ul {
+    display: block;
+    z-index: 1;
+}
+
+#navbar li ul li {
+    display: block;
+    z-index: 1;
+}

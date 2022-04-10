@@ -1,0 +1,35 @@
+img{
+    height: auto;
+    width: auto;
+    float: right;
+    -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+    -moz-transform: scale(0.5); /* FF3.5+ */
+    -ms-transform: scale(0.5); /* IE9 */
+    -o-transform: scale(0.5); /* Opera 10.5+ */
+    transform: scale(0.5);
+    /* IE6–IE9 */
+    /*filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');*/
+}
+html{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, "Helvetica Neue", Helvetica, Arial, Meiryo, "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size: x-large;
+}
+.content{
+    padding-top: 20%;
+    padding-left: 2%;
+}
+button{
+    background-color: #f2f2f2; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

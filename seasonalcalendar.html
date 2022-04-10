@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Obstbau-Rech</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/img/icon/rech_bright.png"/>
+    <link rel="stylesheet" href="src/css/main.css" type="text/css">
+    <link rel="stylesheet" href="src/css/mainFruit.css" type="text/css">
+    <script src="src/js/jquery.js"></script>
+    <script src="src/js/mainScript.js"></script>
+</head>
+<header>
+    <img class="icon" src="src/img/icon/rech_bright.png" alt="icon" onclick="HomeRedirect()">
+</header>
+<body>
+<div id="navbar">
+    <ul>
+        <li class="home"><a class="site-redirect-elements" data-redirect-key="home">Home</a></li>
+        <li class="Anbau"><a class="active">Anbau</a>
+            <ul>
+                <li><a class="site-redirect-elements active" data-redirect-key="active">Saison Kalender</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="apple">Äpfel</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="pear">Birnen</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="strawberry">Erdbeeren</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="stonefruit">Steinobst</a></li>
+            </ul>
+        </li>
+        <li class="Vermarktung"><a>Vermarktung</a>
+            <ul>
+                <li><a class="site-redirect-elements" data-redirect-key="weeklymarket">Wochenmarkt</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="retail">Einzelhandel</a></li>
+            </ul>
+        </li>
+        <li><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
+        <li><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
+    </ul>
+</div>
+<div class="content-scroll">
+    <table>
+        <tr>
+            <td></td>
+            <td>Juli</td>
+            <td>August</td>
+            <td>September</td>
+            <td>Oktober</td>
+            <td>November</td>
+            <td>Dezember</td>
+            <td>Januar</td>
+            <td>Februar</td>
+            <td>März</td>
+            <td>April</td>
+            <td>Mai</td>
+        </tr>
+        <tr>
+            <td>Colina</td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sunrise</td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Delbarestivale</td>
+            <td></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Elstar</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <tr>
+            <td>Cox Orange</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Royale Gala</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <tr>
+            <td>Berlepsch</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Topaz</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <tr>
+            <td>Rubinette</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Wellant</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Boskop</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Jonagold</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <tr>
+            <td>Pinova</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <tr>
+            <td>Breaburn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+        </tr>
+        <!--Birnen-->
+        <tr>
+            <td>Clabs Liebling</td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Williams Christ</td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Conference</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Vereinsdechant</td>
+            <td></td>
+            <td></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td class="table-active"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <footer>
+        <hr>
+        <img src="src/img/icon/marker.png" alt=""/> <p> Wertdovener Straße 18, 53501 Niederich<br></p>
+        <img src="src/img/icon/phone.png" alt=""/> <p> 02641/26767 +49 163 4718999<br></p>
+        <img src="src/img/icon/mail.png" alt=""/> <p> rech-obst@web.de</p>
+    </footer>
+</div>
+</body>
+</html>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    .table-active{
+        background-color: green;
+    }
+
+    tr:hover {background-color:#f5f5f5;}
+
+    @keyframes animate-table {
+        0%   {left:0px; top:0px;}
+        25%  {left:200px; top:0px;}
+        50%  {left:200px; top:200px;}
+        75%  {left:0px; top:200px;}
+        100% {left:0px; top:0px;}
+    }
+
+
+    td:nth-child(2)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(3)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(4)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(5)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(6)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(7)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(8)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(9)  {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(10) {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(11) {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+    td:nth-child(12) {animation-delay:0.5s; animation-duration: 0.5s; animation-name: animate-table;}
+</style>
