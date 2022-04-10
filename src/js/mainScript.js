@@ -10,7 +10,6 @@ $(document).ready(function () {
     $('.site-redirect-elements').click(function() {
 
         var redirect_key = $(this).data('redirect-key');
-        console.log(redirect_key);
         if(redirect_key !== "active"){
             window.location.replace(redirect_key);
         }
