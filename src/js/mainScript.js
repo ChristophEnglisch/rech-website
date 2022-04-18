@@ -1,10 +1,10 @@
 const main_url = window.location.pathname.replace('/', '');
 
 const header_css_path = [
-    'src/css/sub_css/header/apple.css',
-    'src/css/sub_css/header/pear.css',
-    'src/css/sub_css/header/plum.css',
-    'src/css/sub_css/header/strawberry.css',
+    'src/css/elements/header/apple.css',
+    'src/css/elements/header/pear.css',
+    'src/css/elements/header/plum.css',
+    'src/css/elements/header/strawberry.css',
 ];
 
 const img_urls = [

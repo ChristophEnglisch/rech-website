@@ -1,5 +1,6 @@
 @import "components/navbar.css";
 @import "elements/footer/imprint.css";
+@import "fonts/montserrat.css";
 
 html{
     overflow: hidden;
@@ -8,16 +9,8 @@ html{
 body {
     margin: 0;
     font-size: 20px;
-    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, "Helvetica Neue", Helvetica, Arial, Meiryo, "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-family: montserrat, sans-serif;
 }
-
-.content-scroll{
-    height: 760px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    z-index: -1;
-}
-
 
 .icon {
     display: block;
@@ -40,5 +33,13 @@ body {
     width: 1000px;
     margin: auto;
     padding: 16px;
-    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, "Helvetica Neue", Helvetica, Arial, Meiryo, "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-family: montserrat, sans-serif;
 }
+
+.content-scroll{
+   height: 760px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+}
+    

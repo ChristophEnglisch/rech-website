@@ -14,13 +14,12 @@
 }
 
 #navbar li {
-    font-family: 'Oswald', sans-serif;
+    font-family: montserrat, sans-serif;
     font-size: 10pt;
     line-height: 40px;
     text-align: left;
     z-index: 1;
 }
-
 
 #navbar a {
     text-decoration: none;
