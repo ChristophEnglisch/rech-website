@@ -31,8 +31,3 @@ body {
     padding: 16px;
     font-family: montserrat, sans-serif;
 }
-
-.content-scroll{
-    height: 760px;
-    z-index: -1;
-}

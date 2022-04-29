@@ -1,12 +1,12 @@
-.ObstContent p {
+.fruit-content p {
     font-size: 20pt;
 }
 
-.ObstContent:last-of-type{
+.fruit-content:last-of-type{
     border: none;
 }
 
-.ObstIMG {
+.obst-img {
     height: 175px;
     width: 185px;
     padding-right: 10px;
@@ -14,7 +14,7 @@
 }
 
 @media only screen and (min-width: 1200px){
-    .ObstContent {
+    .fruit-content {
         width: 50%;
         height: 200px;
         margin: 20px auto;
@@ -28,7 +28,7 @@
 }
 
 @media only screen and (max-width: 1199px){
-    .ObstContent {
+    .fruit-content {
         width: 90%;
         height: 200px;
         margin: 20px auto;
