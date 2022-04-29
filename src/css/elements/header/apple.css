@@ -2,10 +2,10 @@ header{
     background-image: url(../../../img/background_apple.jpg);
 }
 
-#navbar a:hover{
+nav a:hover{
     background-color : #FE2E2E;
 }
 
-#navbar a.active{
+nav a.active{
     background-color : #FE2E2E;
 }

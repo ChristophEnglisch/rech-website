@@ -3,23 +3,23 @@
 <head>
     <title>Obstbau-Rech</title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="src/img/icon/rech_bright.png"/>
+    <link rel="shortcut icon" href="src/img/icon/RechBright.png"/>
     <link rel="stylesheet" href="src/css/pages/home.css" type="text/css">
     <script src="src/js/jquery.js"></script>
     <script src="src/js/home.js"></script>
-    <script src="src/js/mainScript.js"></script>
+    <script src="src/js/mainscript.js"></script>
 </head>
 
 <header>
-    <img class="icon" src="src/img/icon/rech_bright.png" alt="icon" onclick="HomeRedirect()">
+    <img class="icon" src="src/img/icon/RechBright.png" alt="icon" onclick="HomeRedirect()">
 </header>
 
 <body>
-<div id="navbar">
+<nav>
     <ul>
-        <li class="home"><a class="active site-redirect-elements" data-redirect-key="active">Home</a></li>
-        <li class="Anbau"><a>Anbau</a>
-            <ul>
+        <li class="touchEventListener"><a class="active site-redirect-elements" data-redirect-key="active">Home</a></li>
+        <li class="touchEventListener" data-touch-aim="anbau-elements"><a>Anbau</a>
+            <ul class="anbau-elements">
                 <li><a class="site-redirect-elements" data-redirect-key="seasonalcalendar">Saison Kalender</a></li>
                 <li><a class="site-redirect-elements" data-redirect-key="apple">Äpfel</a></li>
                 <li><a class="site-redirect-elements" data-redirect-key="pear">Birnen</a></li>
@@ -27,16 +27,16 @@
                 <li><a class="site-redirect-elements" data-redirect-key="stonefruit">Steinobst</a></li>
             </ul>
         </li>
-        <li class="Vermarktung"><a>Vermarktung</a>
+        <li class="touchEventListener"><a>Vermarktung</a>
             <ul>
                 <li><a class="site-redirect-elements" data-redirect-key="weeklymarket">Wochenmarkt</a></li>
                 <li><a class="site-redirect-elements" data-redirect-key="retail">Einzelhandel</a></li>
             </ul>
         </li>
-        <li><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
-        <li><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
+        <li class="touchEventListener"><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
+        <li class="touchEventListener"><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
     </ul>
-</div>
+</nav>
 
 <div class="content-scroll">
     <div class="slideshow-container">
@@ -98,28 +98,27 @@
                 <div class="card-element-text">
                     <p>Birnen</p>
                 </div>
-                <img src="src/img/pear/conference.png" alt="">
+                <img src="src/img/fruits/pear/WilliamsChrist.png" alt="">
             </div>
             <div class="card-element site-redirect-elements" data-redirect-key="apple">
                 <div class="card-element-text">
                     <p>Äpfel</p>
                 </div>
-                <img src="src/img/apple/elstar.png" alt="">
+                <img src="src/img/fruits/apple/Elstar.png" alt="">
             </div>
-            <div class="card-element site-redirect-elements" data-redirect-key="stonefruit">
+            <div class="card-element site-redirect-elements" data-redirect-key="stonefruit" style="background-image: url('src/img/fruits/stonefruit/BackgroundPlum.jpg')">
                 <div class="card-element-text">
                     <p>Steinobst</p>
                 </div>
-                <img src="src/img/background_plum.jpg" alt="">
             </div>
         </div>
     </div>
     <footer>
         <hr>
         <div>
-            <img src="src/img/icon/marker.png" alt=""/> Werthovener Straße 18, 53501 Niederich<br>
-            <img src="src/img/icon/phone.png" alt=""/> 02641/26767 +49 163 4718999<br>
-            <img src="src/img/icon/mail.png" alt=""/> rech-obst@web.de
+            <img src="src/img/icon/Marker.png" alt=""/> Werthovener Straße 18, 53501 Niederich<br>
+            <img src="src/img/icon/Phone.png" alt=""/> 02641/26767 +49 163 4718999<br>
+            <img src="src/img/icon/Mail.png" alt=""/> rech-obst@web.de
         </div>
     </footer>
 </div>

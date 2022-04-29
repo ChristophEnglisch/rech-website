@@ -2,10 +2,6 @@
 @import "elements/footer/imprint.css";
 @import "fonts/montserrat.css";
 
-html{
-    overflow: hidden;
-}
-
 body {
     margin: 0;
     font-size: 20px;
@@ -37,9 +33,6 @@ body {
 }
 
 .content-scroll{
-   height: 760px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    height: 760px;
     z-index: -1;
 }
-    

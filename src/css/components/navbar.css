@@ -1,10 +1,10 @@
-#navbar {
+nav {
     background-color: #f2f2f2;
     z-index: 1;
     display: block;
 }
 
-#navbar ul {
+nav ul {
     list-style: none;
     background-color: #f2f2f2;
     text-align: center;
@@ -13,7 +13,7 @@
     z-index: 1;
 }
 
-#navbar li {
+nav li {
     font-family: montserrat, sans-serif;
     font-size: 10pt;
     line-height: 40px;
@@ -21,7 +21,7 @@
     z-index: 1;
 }
 
-#navbar a {
+nav a {
     text-decoration: none;
     color: black;
     display: block;
@@ -31,25 +31,25 @@
     z-index: 1;
 }
 
-#navbar a:hover {
+nav a:hover {
     background-color: #f2f2f2;
     color: white;
     z-index: 1;
 }
 
-#navbar a.active {
+nav a.active {
     background-color: #f2f2f2;
     color: #fff;
     cursor: default;
     z-index: 1;
 }
 
-#navbar li li {
+nav li li {
     font-size: 10pt;
     z-index: 1;
 }
 
-#navbar li {
+nav li {
     width: 130px;
     border-bottom: none;
     height: 50px;
@@ -60,29 +60,38 @@
     z-index: 1;
 }
 
-#navbar > ul > li {
+nav > ul > li {
     text-align: center;
     z-index: 1;
 }
 
-#navbar > ul > li > a {
+nav > ul > li > a {
     padding-left: 0;
     z-index: 1;
 }
 
-#navbar li ul {
+nav li ul {
     position: absolute;
     display: none;
     width: inherit;
     z-index: 1;
 }
 
-#navbar li:hover ul {
-    display: block;
-    z-index: 1;
+@media (hover: hover) and (pointer: fine) {
+    nav li:hover ul {
+        display: block;
+        z-index: 1;
+    }
 }
 
-#navbar li ul li {
+@media (pointer: coarse) {
+    nav li ul {
+        display: none;
+        z-index: 1;
+    }
+}
+
+nav li ul li {
     display: block;
     z-index: 1;
 }

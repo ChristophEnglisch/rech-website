@@ -2,12 +2,12 @@ header{
     background-image: url(../../../img/background_pear.jpg);
 }
 
-#navbar a:hover{
+nav a:hover{
     background-color : #CAD540;
     color: black;
 }
 
-#navbar a.active{
+nav a.active{
     background-color : #CAD540;
     color: black;
 }

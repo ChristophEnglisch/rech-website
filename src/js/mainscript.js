@@ -8,10 +8,10 @@ const header_css_path = [
 ];
 
 const img_urls = [
-    'src/img/background_apple.jpg',
-    'src/img/background_pear.jpg',
-    'src/img/background_plum.jpg',
-    'src/img/background_strawberry.jpeg',
+    'src/img/fruits/apple/BackgroundApple.jpg',
+    'src/img/fruits/pear/BackgroundPear.jpg',
+    'src/img/fruits/stonefruit/BackgroundPlum.jpg',
+    'src/img/fruits/strawberry/BackgroundStrawberry.jpeg',
 ];
 
 function HomeRedirect() {
@@ -21,11 +21,16 @@ function HomeRedirect() {
 }
 
 $(document).ready(function () {
-    $('.site-redirect-elements').click(function() {
+    $('.touchEventListener').on('tap',function () {
+        alert('test');
+        const touchAim = $(this).data('touch-aim')
+        $('.' + touchAim).show();
+    });
 
-        var redirect_key = $(this).data('redirect-key');
-        if(redirect_key !== "active"){
-            window.location.replace(redirect_key);
+    $('.site-redirect-elements').click(function() {
+        const redirectKey = $(this).data('redirect-key');
+        if(redirectKey !== "active"){
+            window.location.replace(redirectKey);
         }
     });
 
