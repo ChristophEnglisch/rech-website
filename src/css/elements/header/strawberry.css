@@ -1,11 +1,11 @@
 header{
-    background-image: url(../../../img/background_strawberry.jpeg);
+    background-image: url(../../../img/fruits/strawberry/BackgroundStrawberry.jpeg);
 }
 
-nav a:hover{
+.navbar a:hover{
     background-color : #FE2E2E;
 }
 
-nav a.active{
+.navbar a.active{
     background-color : #FE2E2E;
 }
