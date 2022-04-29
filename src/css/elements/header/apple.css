@@ -1,11 +1,11 @@
 header{
-    background-image: url(../../../img/background_apple.jpg);
+    background-image: url(../../../img/fruits/apple/BackgroundApple.jpg);
 }
 
-nav a:hover{
+.navbar a:hover{
     background-color : #FE2E2E;
 }
 
-nav a.active{
+.navbar a.active{
     background-color : #FE2E2E;
 }

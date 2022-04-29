@@ -15,10 +15,13 @@
 </header>
 
 <body>
-<nav>
+
+<nav class="navbar">
+    <!-- NavbarContainer einbauen styling über classen und keine elemente oder ids-->
+    <input class="hamburger-menu-cb" type="checkbox">
     <ul>
-        <li class="touchEventListener"><a class="active site-redirect-elements" data-redirect-key="active">Home</a></li>
-        <li class="touchEventListener" data-touch-aim="anbau-elements"><a>Anbau</a>
+        <li><a class="active site-redirect-elements" data-redirect-key="active">Home</a></li>
+        <li data-touch-aim="anbau-elements"><a>Anbau</a>
             <ul class="anbau-elements">
                 <li><a class="site-redirect-elements" data-redirect-key="seasonalcalendar">Saison Kalender</a></li>
                 <li><a class="site-redirect-elements" data-redirect-key="apple">Äpfel</a></li>
@@ -27,20 +30,19 @@
                 <li><a class="site-redirect-elements" data-redirect-key="stonefruit">Steinobst</a></li>
             </ul>
         </li>
-        <li class="touchEventListener"><a>Vermarktung</a>
+        <li><a>Vermarktung</a>
             <ul>
                 <li><a class="site-redirect-elements" data-redirect-key="weeklymarket">Wochenmarkt</a></li>
                 <li><a class="site-redirect-elements" data-redirect-key="retail">Einzelhandel</a></li>
             </ul>
         </li>
-        <li class="touchEventListener"><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
-        <li class="touchEventListener"><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
+        <li><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
+        <li><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
     </ul>
 </nav>
 
 <div class="content-scroll">
     <div class="slideshow-container">
-
         <div class="mySlides fade">
             <div class="caption caption-0">Regionallieferant<br>
                 Obstbau Johannes Christoph Rech
@@ -111,7 +113,8 @@
                 </div>
                 <img src="src/img/fruits/apple/Elstar.png" alt="">
             </div>
-            <div class="card-element site-redirect-elements" data-redirect-key="stonefruit" style="background-image: url('src/img/fruits/stonefruit/BackgroundPlum.jpg')">
+            <div class="card-element site-redirect-elements" data-redirect-key="stonefruit"
+                 style="background-image: url('src/img/fruits/stonefruit/BackgroundPlum.jpg')">
                 <div class="card-element-text">
                     <p>Steinobst</p>
                 </div>
@@ -129,4 +132,7 @@
 </div>
 </body>
 </html>
-<script>plusSlides(0);</script>
+
+<script>
+    plusSlides(0);
+</script>
