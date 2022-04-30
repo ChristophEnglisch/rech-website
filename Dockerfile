@@ -1,2 +1,3 @@
-FROM httpd:2.4
-COPY ./ /usr/local/apache2/htdocs/
+FROM nginx
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY static-html-directory /usr/share/nginx/html
