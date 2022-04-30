@@ -1,5 +1,7 @@
-header{
-    background-image: url(../../../img/fruits/strawberry/BackgroundStrawberry.jpeg);
+@media (hover: hover) and (pointer: fine) {
+    header{
+        background-image: url(../../../img/fruits/strawberry/BackgroundStrawberry.jpeg);
+    }
 }
 
 .navbar a:hover{
