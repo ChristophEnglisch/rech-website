@@ -12,27 +12,46 @@
     <img class="icon" src="src/img/icon/RechBright.png" alt="icon" onclick="HomeRedirect()">
 </header>
 <body>
+
 <nav class="navbar">
-    <ul>
-        <li class="home"><a class="site-redirect-elements" data-redirect-key="home">Home</a></li>
-        <li class="Anbau"><a class="active">Anbau</a>
+    <div class="nav-container">
+
+        <input class="hamburger-menu-cb" type="checkbox" name="" id="" />
+
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+
+        <div class="menu-items">
             <ul>
-                <li><a class="site-redirect-elements active" data-redirect-key="active">Saison Kalender</a></li>
-                <li><a class="site-redirect-elements" data-redirect-key="apple">Äpfel</a></li>
-                <li><a class="site-redirect-elements" data-redirect-key="pear">Birnen</a></li>
-                <li><a class="site-redirect-elements" data-redirect-key="strawberry">Erdbeeren</a></li>
-                <li><a class="site-redirect-elements" data-redirect-key="stonefruit">Steinobst</a></li>
+                <li><a class="site-redirect-elements" data-redirect-key="home">Home</a></li>
+                <li>
+                    <a class="navbar-menu-topic active">Anbau</a>
+                    <ul class="anbau-elements">
+                        <li><a class="site-redirect-elements active" data-redirect-key="active">Saison Kalender</a></li>
+                        <li><a class="site-redirect-elements" data-redirect-key="apple">Äpfel</a></li>
+                        <li><a class="site-redirect-elements" data-redirect-key="pear">Birnen</a></li>
+                        <li><a class="site-redirect-elements" data-redirect-key="strawberry">Erdbeeren</a></li>
+                        <li><a class="site-redirect-elements" data-redirect-key="stonefruit">Steinobst</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="navbar-menu-topic">Vermarktung</a>
+                    <ul>
+                        <li><a class="site-redirect-elements" data-redirect-key="weeklymarket">Wochenmarkt</a></li>
+                        <li><a class="site-redirect-elements" data-redirect-key="retail">Einzelhandel</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
+
+                <li><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
             </ul>
-        </li>
-        <li class="Vermarktung"><a>Vermarktung</a>
-            <ul>
-                <li><a class="site-redirect-elements" data-redirect-key="weeklymarket">Wochenmarkt</a></li>
-                <li><a class="site-redirect-elements" data-redirect-key="retail">Einzelhandel</a></li>
-            </ul>
-        </li>
-        <li><a class="site-redirect-elements" data-redirect-key="recipes">Rezepte</a></li>
-        <li><a class="site-redirect-elements" data-redirect-key="contact">Kontakt</a></li>
-    </ul>
+        </div>
+    </div>
 </nav>
 <div>
     <table>
