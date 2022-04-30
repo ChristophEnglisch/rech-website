@@ -1,8 +1,8 @@
 const img_urls = [
-    'src/img/background_apple.jpg',
-    'src/img/background_pear.jpg',
-    'src/img/background_plum.jpg',
-    'src/img/background_strawberry.jpeg',
+    'src/img/fruits/apple/BackgroundApple.jpg',
+    'src/img/fruits/pear/BackgroundPear.jpg',
+    'src/img/fruits/stonefruit/BackgroundPlum.jpg',
+    'src/img/fruits/strawberry/BackgroundStrawberry.jpeg',
 ];
 
 const header_index = Math.floor(Math.random() * 4);
