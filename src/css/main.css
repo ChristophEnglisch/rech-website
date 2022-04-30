@@ -31,3 +31,9 @@ body {
     padding: 16px;
     font-family: montserrat, sans-serif;
 }
+
+@media (pointer: coarse) {
+    .content-container{
+        margin-top: 50px;
+    }
+}
